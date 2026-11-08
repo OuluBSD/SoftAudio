@@ -1,0 +1,28 @@
+acceptflags
+	PORTAUDIO,
+	BUILTIN_PORTAUDIO,
+	AUDIO;
+
+uses(BUILTIN_PORTAUDIO) plugin/portaudio;
+
+library(!BUILTIN_PORTAUDIO !(WIN32 !MSC)) portaudio;
+
+library(!BUILTIN_PORTAUDIO WIN32 !MSC) libportaudio.dll.a;
+
+file
+	AGENTS.md,
+	Sound.h,
+	Types.h,
+	SoundSystem.h,
+	Sound.cpp,
+	SoundStream.cpp,
+	SoundSystem.cpp,
+	SoundDaemon.h,
+	SoundDaemon.cpp,
+	SoundThread.h,
+	SoundThread.cpp,
+	SoundThread.inl highlight cpp,
+	Discussion.h,
+	Discussion.cpp,
+	SoundClip.h;
+

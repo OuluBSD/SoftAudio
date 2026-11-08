@@ -1,0 +1,12 @@
+description "Synth & Instrument Verification Probe\377";
+
+uses
+	Core,
+	SoftSynth,
+	SoftInstru;
+
+file
+	SynthCheck.cpp;
+
+mainconfig
+	"" = "";

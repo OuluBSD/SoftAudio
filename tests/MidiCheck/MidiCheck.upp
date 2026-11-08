@@ -1,0 +1,11 @@
+description "Unit tests for MidiFile package\377";
+
+uses
+	Core,
+	MidiFile;
+
+file
+	MidiCheck.cpp;
+
+mainconfig
+	"" = "";

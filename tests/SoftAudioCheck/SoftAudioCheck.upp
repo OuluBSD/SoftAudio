@@ -1,0 +1,11 @@
+description "Unit tests for SoftAudio physical modeling and DSP synthesis\377";
+
+uses
+	Core,
+	SoftAudio;
+
+file
+	SoftAudioCheck.cpp;
+
+mainconfig
+	"" = "";
